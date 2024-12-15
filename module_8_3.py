@@ -31,7 +31,6 @@ class Car:
         return True
 
 
-# Пример выполняемого кода
 try:
     first = Car('Model1', 1000000, 'f123dj')
 except IncorrectVinNumber as exc:
